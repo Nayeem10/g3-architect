@@ -7,3 +7,73 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.white{
+    color: #FFFFFF;
+}
+
+.bg-orange{
+    background-color: #FF900E;
+}
+.bg-opaque-orange{
+    background-color: rgba(255, 144, 14, .1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+html {
+    font-size: 16px; /* Base font size */
+}
+body{
+    margin: 0px;
+    border: none;
+}
+header{
+    padding: 0 12.5%;
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar > h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.nav-class li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-class a{
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* banner */
+.banner{
+    flex-direction: column;
+    align-items: center;
+}
+.banner > h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner > button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.418% 1.7%;
+    border-radius: 6.34% / 20.78%;
+    border: none;
+}
