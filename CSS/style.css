@@ -41,8 +41,19 @@
     border-radius: .4vw;
     border: none;
 }
-
-
+h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+p{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
 html {
     font-size: 16px; /* Base font size */
 }
@@ -51,7 +62,8 @@ body{
     border: none;
 }
 header{
-    padding: 0 10.5%;
+    padding: 0 10%;
+    padding-bottom: 3%;
 }
 .nav-bar{
     justify-content: space-between;
@@ -122,7 +134,111 @@ section{
     
     gap: 5vh;
 }
-.team-feature > h1{
-    font-size: 2.8rem;
-    font-weight: bold;
+
+.features{
+    padding: 0 10%;
+    justify-content: space-evenly;
+}
+.features-des{
+    width: 40%;
+    flex-direction: column;
+    /* justify-content: ; */
+}
+.features-img{
+    width: 40%;
+}
+.features-img > img{
+    width: 100%;
+}
+.features-img > button{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 75%;
+    position: relative;
+    bottom: 10%;
+    left: -10%;
+    padding: 8% 10%;
+}
+.features span{
+    font-size: 1.56rem;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.features-card-container{
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.features-card{
+    padding: 5.8%;
+    border-radius: .4vw;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features h3{
+    padding: 2vh 0;
+}
+
+.facts{
+    padding: 0 10%;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.facts-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    margin: 12%;
+    aspect-ratio: 1 / 1;
+}
+.facts-container > .facts-card {
+    min-width: 0; /* Prevent overflow */
+    min-height: 0; /* Prevent overflow */
+}
+.num{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #424242;
+}
+.txt{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #727272;
+}
+.facts h1{
+    margin-bottom: 1%;
+}
+
+.sponsors{
+    padding: 0 10%;
+    flex-direction: column;
+    text-align: center;
+    gap: 3vh;
+    margin-bottom: 5vh;
+}
+.sponsors-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 6vw;
+}
+.sponsors-container img{
+    width: 100%;
+    filter: grayscale();
+}
+
+footer{
+    margin: 0 10%;
+    text-align: center;
+    font-size: 1.25 rem;
+    font-weight: 400;
+    padding: 4vh 0;
+    border-radius: 8px;
 }
